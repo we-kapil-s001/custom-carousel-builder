@@ -2,7 +2,7 @@
   <div>
     <Content
         model="page"
-        apiKey="d6029bffb3d340cb848fc12c63627af8"
+        :apiKey="builderApiKey"
         :content="content"
         :customComponents="REGISTERED_COMPONENTS"
     />
@@ -13,9 +13,11 @@
 import { Content, fetchOneEntry } from "@builder.io/sdk-vue";
 import { REGISTERED_COMPONENTS } from "../init-builder";
 
+const builderApiKey = 'd6029bffb3d340cb848fc12c63627af8';
+
 const content = await fetchOneEntry({
   model: 'page',
-  apiKey: 'd6029bffb3d340cb848fc12c63627af8',
+  apiKey: builderApiKey,
   userAttributes: {
     urlPath: '/'
   }

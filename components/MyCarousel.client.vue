@@ -1,34 +1,37 @@
 <template>
-  <section aria-label="Newest Photos">
-    <div class="carousel" data-carousel>
-      <button class="carousel-button prev" data-carousel-button="prev">
-        &ltrif;
-      </button>
-      <button class="carousel-button next" data-carousel-button="next">
-        &rtrif;
-      </button>
-      <ul data-slides>
-        <li class="slide" data-active>
-          <img
-            src="https://source.unsplash.com/78A265wPiO4"
-            alt="Nature Image #1"
-          />
-        </li>
-        <li class="slide">
-          <img
-            src="https://source.unsplash.com/eOpewngf68w"
-            alt="Nature Image #2"
-          />
-        </li>
-        <li class="slide">
-          <img
-            src="https://source.unsplash.com/ndN00KmbJ1c"
-            alt="Nature Image #3"
-          />
-        </li>
-      </ul>
-    </div>
-  </section>
+  <div>
+    <h1 class="text-2xl font-bold mb-2 text-center">Custom JS + CSS Carousel</h1>
+    <section aria-label="Newest Photos">
+      <div class="carousel" data-carousel>
+        <button class="carousel-button prev" data-carousel-button="prev">
+          &ltrif;
+        </button>
+        <button class="carousel-button next" data-carousel-button="next">
+          &rtrif;
+        </button>
+        <ul data-slides>
+          <li class="slide" data-active>
+            <img
+              src="https://source.unsplash.com/78A265wPiO4"
+              alt="Nature Image #1"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://source.unsplash.com/eOpewngf68w"
+              alt="Nature Image #2"
+            />
+          </li>
+          <li class="slide">
+            <img
+              src="https://source.unsplash.com/ndN00KmbJ1c"
+              alt="Nature Image #3"
+            />
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script setup lang="js">

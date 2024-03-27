@@ -1,5 +1,6 @@
 <template>
   <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    <h1 class="text-2xl font-bold text-center mb-2">Flowbite Carousel</h1>
     <!-- Carousel wrapper -->
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
       <!-- Item 1 -->

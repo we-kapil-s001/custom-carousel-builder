@@ -1,5 +1,6 @@
 import FlowCarousel from "~/components/FlowCarousel.vue";
 import VueCarousel from "~/components/VueCarousel.vue";
+import MyCarousel from "~/components/MyCarousel.client.vue";
 
 export const REGISTERED_COMPONENTS = [
   {
@@ -37,5 +38,9 @@ export const REGISTERED_COMPONENTS = [
   {
     component: VueCarousel,
     name: "VueCarousel",
+  },
+  {
+    component: MyCarousel,
+    name: "MyCarousel",
   },
 ];

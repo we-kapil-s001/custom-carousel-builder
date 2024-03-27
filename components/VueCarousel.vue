@@ -1,5 +1,5 @@
 <template>
-  <Carousel :items-to-show="1.5">
+  <Carousel :items-to-show="2">
     <Slide v-for="n in 10" :key="n">
       {{ n }}
     </Slide>
